@@ -1,0 +1,36 @@
+{
+  "version": "0.3.37",
+  "versions": {
+    "macos": "0.3.37",
+    "linux": "0.3.37",
+    "windows": "0.3.35"
+  },
+  "platforms": {
+    "macos": {
+      "aarch64": {
+        "dmg": "HERMES-IDE_0.3.37_aarch64.dmg"
+      },
+      "x86_64": {
+        "dmg": "HERMES-IDE_0.3.37_x64.dmg"
+      }
+    },
+    "linux": {
+      "x86_64": {
+        "appimage": "linux-x86_64-HERMES-IDE_0.3.37_amd64.AppImage",
+        "deb": "HERMES-IDE_0.3.37_amd64.deb"
+      },
+      "aarch64": {
+        "appimage": "linux-aarch64-HERMES-IDE_0.3.37_aarch64.AppImage",
+        "deb": "HERMES-IDE_0.3.37_arm64.deb"
+      }
+    },
+    "windows": {
+      "x86_64": {
+        "exe": "HERMES-IDE_0.3.35_x64-setup.exe"
+      },
+      "aarch64": {
+        "exe": "HERMES-IDE_0.3.35_arm64-setup.exe"
+      }
+    }
+  }
+}
